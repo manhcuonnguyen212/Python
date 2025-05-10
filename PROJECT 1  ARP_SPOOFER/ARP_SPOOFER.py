@@ -42,3 +42,4 @@ parser.add_argument("GATEWAY",type=str,help="The default gateway of your network
 args = parser.parse_args()
 spoofer = ARP_SPOOFER(args.IP,args.GATEWAY)
 spoofer.create_and_send_ARP_reply(args.IP,args.GATEWAY)
+# author: nguyen dang manh cuong
