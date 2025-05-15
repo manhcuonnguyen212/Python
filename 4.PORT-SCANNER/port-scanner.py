@@ -5,7 +5,7 @@ import argparse
 import threading
 import sys
 from socket import socket, AF_INET, SOCK_STREAM, timeout
-
+value = threading.Semaphore(1)
 class PortScanner:
     def __init__(self, host, ports):
         print("[+] Starting the port scanner...")
@@ -31,12 +31,15 @@ class PortScanner:
             with socket(AF_INET, SOCK_STREAM) as conn:
                 conn.settimeout(1)
                 result = conn.connect_ex((self.host, port))
+                value.acquire()
                 if result == 0:
                     print(f"[+] Port {port} is OPEN on {self.host}")
         except timeout:
             print(f"[-] Timeout on port {port}")
         except Exception as e:
             print(f"[-] Error on port {port}: {e}")
+        finally:
+            value.release()
 
     def scan_ports(self):
         threads = []
