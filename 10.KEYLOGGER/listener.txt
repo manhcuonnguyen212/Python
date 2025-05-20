@@ -1,0 +1,7 @@
+ Key.ctrl_l [+] KeyLogger has started!NoneNoneNoneNoneNone Key.shift_r  Key.enter ffffnue Key.ctrl_l  Key.backspace  Key.ctrl_l  Key.ctrl_l fa [Key.ctrl_l] facebook.com
+ [Key.ctrl_l]  [Key.alt_l]  [Key.tab] manhcuongnguyn [Key.backspace] en36 [Key.backspace] 49 [Key.shift_r] @gmail.com [Key.tab] 13456789 [Key.shift_r] @
+123456789 [Key.shift_r] @
+ [Key.ctrl_l]  [Key.ctrl_l]  [Key.ctrl_l]  [Key.ctrl_l]  [Key.ctrl_l] facebook.com
+manhcuongnguyen3234 [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace] 234 [Key.backspace]  [Key.backspace]  [Key.backspace] 349 [Key.shift_r] @gmail.com [Key.tab] 12356789 [Key.shift_r] @
+123456789 [Key.shift_r] @
+ [Key.esc] 
